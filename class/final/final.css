@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    width: 540px;
+    height: 960px;
+    background: #FFFFFF;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+}
+
+h3 {
+    font-size: 32px;
+    color: #0068FF;
+    font-weight: bold;
+    width: 380px;
+    margin-bottom: 40px;
+}
+
+.error {
+    color: red;
+    height: 10px;
+    font-size: 11px;
+}
+
+.inputbox {
+    width: 380px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    padding: 18px;
+    margin-top: 20px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-weight: 400;
+    font-size: 16px;
+    color: #797979;
+}
+
+.phone__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.phoneNum {
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.token__wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.token {
+    font-family: 'Noto Sans CJK KR';
+    font-size: 18px;
+    text-align: right;
+    color: #0068FF;
+}
+
+#token__button, #token__timer__confirm__button {
+    width: 120px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    margin-left: 21px;
+}
+
+.location {
+    width: 380px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    padding: 18px;
+    margin-top: 20px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-size: 16px;
+    color: #797979;
+}
+
+.gender__wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gender {
+    width: 70px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 30px;
+    border: 1px solid #E6E6E6;
+    width: 380px;
+    margin-bottom: 20px;
+}
+
+#signup__button {
+    width: 380px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #0068FF;
+}
